@@ -12,11 +12,20 @@ name="enum"
 path="src/enum/main.rs"
 
 [[bin]]
-name="math"
-path="src/math/main.rs"
+name="match"
+path="src/match/main.rs"
+
+[[bin]]
+name="vector"
+path="src/vector/main.rs"
+
+[[bin]]
+name="function"
+path="src/function/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 
 rand = "0.8.5"
+serde = "1.0.183"
