@@ -1,7 +1,7 @@
 fn main(){
     // Struct tupple destructuring
     struct Eg(String, String);
-    let Eg (a, b) = Eg(String::from("value"), String::from("value"));
+    let Eg (_a, _b) = Eg(String::from("value"), String::from("value"));
 
     // Struct destructuring
     struct Xa {
@@ -12,6 +12,6 @@ fn main(){
         name: String::from("value"),
         age: 18
     };
-    let Xa {name, age} = &p;
+    let Xa {name: _name, age: _age} = &p;
 
 }
